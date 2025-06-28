@@ -1,0 +1,11 @@
+services:
+  server:
+    build:
+      context: .
+    ports:
+      - 80:80
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /usr/share/nginx/html
