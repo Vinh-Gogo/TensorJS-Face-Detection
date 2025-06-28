@@ -1,5 +1,5 @@
 const stats = new Stats();
-stats.showPanel(0);
+stats.showPanel(0); 
 document.body.prepend(stats.domElement);
 
 let model, ctx, videoWidth, videoHeight, video, canvas;
